@@ -11,6 +11,7 @@
 
 .contact-content{
     display: flex;
+    /* flex-wrap: wrap; */
     gap: 3rem;
 }
 

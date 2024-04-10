@@ -67,7 +67,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    background: linear-gradient(90deg, #121214 0%, #7e61e7 100%);
     padding: 0.6rem 2rem;
     border: none;
     outline: 1.5px solid transparent;
@@ -80,6 +80,13 @@
     color: #a993fe;
     background: #000;
     outline: 1.5px solid #a993fe;
+}
+
+.contact-btn {
+    .download-cv{
+        text-decoration: none;
+        color: #a993fe;
+    }
 }
 
 .menu-btn {

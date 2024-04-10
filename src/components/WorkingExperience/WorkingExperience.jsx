@@ -3,6 +3,9 @@ import "./WorkingExperience.css";
 import { WORKING_EXPERIENCE } from "../../utils/data";
 import ExperienceCard from "./ExperienceCard/ExperienceCard";
 import Slider from "react-slick";
+import { PiArrowLeftBold } from "react-icons/pi";
+import { PiArrowRightBold } from "react-icons/pi";
+
 const WorkingExperience = () => {
   const sliceRef = useRef();
 
@@ -39,10 +42,14 @@ const WorkingExperience = () => {
 
       <div className="experience-content">
         <div className="arrow-right" onClick={sliceRight}>
-            <span className="material-symbols-outline">chrvron_right</span>
+            {/* <span className="material-symbols-outline"> */}
+              <PiArrowRightBold/>
+            {/* </span> */}
         </div>
         <div className="arrow-left" onClick={sliceLeft}>
-            <span className="material-symbols-outline">chrvron_left</span>
+            {/* <span className="material-symbols-outline"> */}
+            <PiArrowLeftBold/>
+            {/* </span> */}
         </div>
         <Slider ref={sliceRef} {...settings}>
         {WORKING_EXPERIENCE.map((item) => (

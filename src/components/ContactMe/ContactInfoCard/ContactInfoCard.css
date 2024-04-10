@@ -6,14 +6,14 @@
     background: #130f2a;
     border-radius: 0.65rem;
     border: 1.5px solid #6751b9;
-    padding: 1.5rem;
+    padding: 1rem;
     margin-bottom: 2rem;
-
+    margin-right: 1rem;
 }
 
 .contact-details-card .icon {
-    width: 4rem;
-    height: 4rem;
+    width: 2rem;
+    height: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,6 +32,6 @@
 }
 
 .contact-details-card p {
-    font-style: 0.9rem;
+    font-size: 0.9rem;
     font-weight: 400;
 }
